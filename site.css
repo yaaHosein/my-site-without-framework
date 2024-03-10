@@ -24,3 +24,11 @@ main {
     display: grid;
     place-items: center;
 }
+
+@media screen and (min-width: 800px) {
+    
+    body {
+      font-size: 1rem;
+    }
+    
+  }
