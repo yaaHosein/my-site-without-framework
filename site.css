@@ -26,7 +26,7 @@ bottom-nav {
     *,
 ::after,
 ::before {
-    margin: 0;
+    mf: 0;
     padding: 0;
 }
 }
@@ -45,22 +45,52 @@ main {
 /* 
 @media screen and (min-width: 800px) {
      */
-
+h1{
+  margin-top: 5%;
+  color: #7fffdd;
+  font-size:40px;
+  font-style:oblique;
+  font-weight: lighter;
+  
+}
 .text {
-  margin-top: 2rem;
+  font-style: oblique;
   width: 500px;
-  color: #bac5b7;
-  margin-left: 5rem;
+  color: #ddfcd5;
+  font-size: large;
 }
 
 button {
-  margin-left: 16rem;
+  color:rgb(20, 249, 214);
+  display: block;
+  width: 40%;
+  border-color: transparent;
+  background: var(--clr-pink);
+  margin: 1rem auto 0 auto;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.4rem 0;
+  letter-spacing: var(--spacing);
+  border-radius: var(--radius);
+  outline: 1px solid rgba(16, 202, 128, 0.8);
+  cursor: pointer;
+  font-style: oblique;
+  
 }
 
 .img {
   margin-left: 40rem;
-  width: 50rem;
+  width: 52rem;
   height: auto;
+  margin-top: 10rem;
+  
+
+}
+
+.content{
+  margin-left: 5rem;
+  margin-top: 16rem;
+  position: absolute;
 }
 
 /* .div1{
