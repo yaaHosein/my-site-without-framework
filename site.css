@@ -66,6 +66,15 @@ h5{
   display: none;
 }
 
+.text_ {
+  font-style: oblique;
+  width: 500px;
+  color: #7d23d0;
+  font-size: large;
+  color: #7fffdd;
+  display: none;
+}
+
 button {
   color:rgb(20, 249, 214);
   display: block;
