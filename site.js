@@ -1,7 +1,15 @@
 const learnMoreBtn = document.querySelector('.learn-more-btn')
 const contactMeBtn = document.querySelector('.contact-me-btn')
-const text= document.querySelector('.text')
-const text_ = document.querySelector('.text_')
+const text11= document.querySelector('.text11')
 
-learnMoreBtn.addEventListener('click',(e)=>text.classList.toggle('text'))
-contactMeBtn.addEventListener('click', (e) => text_.classList.toggle('text_'))
+
+
+learnMoreBtn.addEventListener('click',(e)=>text11.classList.toggle('text11'))
+contactMeBtn.addEventListener('click', (e) => text11.classList.toggle('text11'))
+
+// let ss = learnMoreBtn.onclick
+// let bb = learnMoreBtn.onclick
+// console.log(ss);
+
+// if (ss == true) { text1.classList.add('text2') }
+if (bb == true) { text11.classList.add('text11') }

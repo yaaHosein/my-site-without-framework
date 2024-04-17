@@ -27,10 +27,10 @@ h5{
   color: #b6b0ec;
 }
 
-p {
+.textt {
   color: #7fffdd;
   width: 50%;
-  margin: 0 auto;
+  margin-left: 300px;
 }
 
 button {
@@ -49,24 +49,30 @@ button {
   cursor: pointer;
   font-style: oblique;
 }
+
+
+.text2 {display: none;}
+
 .text {
   font-style: oblique;
   width: 500px;
-  color: #7d23d0;
   font-size: large;
-  color: #7fffdd;
+
+}
+
+
+.text11{
   display: none;
 }
+
+
 .text_ {
   font-style: oblique;
   width: 500px;
-  color: #7d23d0;
   font-size: large;
-  color: #7fffdd;
-  display: none;
+
 }
 .img {
-
   width: 720px;
   margin-top: -14rem;
   border-radius: var(--radius);
@@ -74,5 +80,13 @@ button {
   height: 25rem;
   margin-left: 80%;
   margin-right: 100px;
+  margin-bottom: -25%;
+}
+
+.text1{
+  color: #7fffdd;
+  margin-left: 300px;
+  margin-top: 1%;
+  width: 50%;
 
 }
