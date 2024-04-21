@@ -10,22 +10,24 @@ body {
   max-width: 1200px;
 }
 
-h1 {
+.head {
   margin-top: 21%;
   color: #070b0a;
   font-size: 40px;
   font-style: oblique;
   font-weight: lighter;
   margin-left: 10%;
+
 }
 
 .text_ {
   color: #121313;
   width: 50%;
   margin-left: 120px;
+  margin-bottom: 15px;
 }
 
-button {
+.btn {
   color: rgb(16, 17, 17);
   display: block;
   width: 20%;
@@ -39,11 +41,10 @@ button {
   font-style: oblique;
 }
 
-.text2 {
-  display: none;
-}
-
 .text {
+  font-style: oblique;
+  width: 500px;
+  font-size: large;
   display: none;
 }
 
@@ -58,4 +59,23 @@ button {
   height: 27rem;
   margin-left: 60%;
   margin-right: 110px;
+}
+
+.text1{
+  font-style: oblique;
+  width: 500px;
+  font-size: large;
+  color: #111615;
+  margin-left: 110px;
+  width: 60%;
+  margin-bottom: 5px;
+
+}
+
+h4{
+margin: 10px;
+}
+
+.text2{
+  margin-left: 290px;
 }
