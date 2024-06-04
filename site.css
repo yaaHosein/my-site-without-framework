@@ -8,9 +8,13 @@
 
 body {
   max-width: 1200px;
-  background-color:rgb(236, 244, 235)
+  background-color: rgb(236, 244, 235);
 }
 
+.text {
+  margin: 30px;
+  width: 500px;
+}
 .contact-me-btn {
   color: rgb(16, 17, 17);
   background-color: rgb(236, 241, 230);
@@ -40,8 +44,7 @@ body {
   display: none;
 }
 
-.text1{
+.text1 {
   color: #0a1411;
   margin-left: 300px;
 }
-
