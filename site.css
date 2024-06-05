@@ -17,6 +17,7 @@ body {
 margin-left: 70px;
   width: 450px;
   display: grid;
+  color: rgb(7, 103, 103);
 }
 .contact-me-btn {
   color: rgb(16, 17, 17);
@@ -52,5 +53,6 @@ margin-bottom: 5%;
 
 .text1 {
   color: #0a1411;
-  margin-left: 200px;
+  margin-left: 165px;
+  margin-top: 21%;
 }
