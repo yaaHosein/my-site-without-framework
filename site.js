@@ -1,5 +1,5 @@
 
-const contactMeBtn = document.querySelector('.contact-me-btn')
-const text12 = document.querySelector('.text12')
+var contactMeBtn = document.querySelector('.contact-me-btn')
+var contactMeText = document.querySelector('.contact-me-text')
 
-contactMeBtn.addEventListener('click', () => text12.classList.toggle('text12'))
+contactMeBtn.addEventListener('click', () => contactMeText.classList.toggle('contact-me-text'))
