@@ -1,0 +1,58 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  background-color: rgb(236, 244, 235);
+}
+
+.text {
+  font-size:larger;
+  margin-top: 10%;
+margin-left: 70px;
+  width: 450px;
+  display: grid;
+  color: rgb(7, 103, 103);
+}
+.contact-me-btn {
+  color: rgb(16, 17, 17);
+  background-color: rgb(236, 241, 230);
+  width: 20%;
+  border-color: transparent;
+
+  font-size: 1.2rem;
+  padding: 0.4rem 0;
+  margin-left: 140px;
+  outline: 1px solid rgba(32, 47, 32, 0.8);
+  cursor: pointer;
+  font-style: oblique;
+  margin-top: 3%;
+margin-bottom: 15%;
+display: grid;
+}
+
+.img {
+  width: 700px;
+display:grid;
+  object-fit: cover;
+  height: 27rem;
+  margin-left: 60%;
+  margin-right: 110px;
+margin-top: -70%;
+margin-bottom: 5%;
+}
+
+.contact-me-text {
+  display: none;
+}
+
+.contact-me-text_ {
+  color: #0a1411;
+  margin-left: 165px;
+  margin-top: 21%;
+}
